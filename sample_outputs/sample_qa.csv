@@ -1,0 +1,6 @@
+Question,Answer
+What is the access to electricity in rural areas in Africa?,Error: InferenceClient.text_generation() got an unexpected keyword argument 'max_length'
+How is gender equality progressing globally?,Error: InferenceClient.text_generation() got an unexpected keyword argument 'max_length'
+What are the trends in global poverty rates?,Error: InferenceClient.text_generation() got an unexpected keyword argument 'max_length'
+How does climate change affect small island nations?,Error: InferenceClient.text_generation() got an unexpected keyword argument 'max_length'
+What measures are being taken to promote sustainable cities?,Error: InferenceClient.text_generation() got an unexpected keyword argument 'max_length'
