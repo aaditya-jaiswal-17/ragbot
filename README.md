@@ -38,8 +38,7 @@ rag-chatbot/
 │
 ├── app/                       # Streamlit
 │   └── app.py                 # Streamlit chatbot UI
-|
-|
+│
 ├── sample_outputs/            # Sample generated Q&A
 │   └── sample_qa.csv
 │
@@ -60,8 +59,8 @@ rag-chatbot/
 | Embeddings        | `sentence-transformers/all-MiniLM-L6-v2`  |
 | Vector Store      | `FAISS`                                   |
 | Frameworks        | `LangChain`                               |
-| Dataset Source    | `	World Bank SDG Indicators`              |
-| Dashboard         | `streamlit`                               |
+| Dataset Source    | `World Bank SDG Indicators`              |
+| Dashboard         | `Streamlit`                               |
 
 ---
 
@@ -70,7 +69,7 @@ rag-chatbot/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yashdew03/ragbot.git
+git clone https://github.com:yashdew3/ragbot.git
 cd rag-chatbot
 
 ```
@@ -167,9 +166,10 @@ This chatbot supports offline embeddings using Hugging Face or Llama models. You
 ---
 ## 🚀 Demo
 
-![App Screenshot](https://github.com/yashdew03/ragbot/sample_outputs/screenshot.png)
+![App Screenshot](https://github.com/yashdew3/ragbot/blob/main/sample_outputs/screenshot.png)
 > A Streamlit UI lets users ask questions like:  
 > _"Which countries lead in renewable energy use?"_
+
 ---
 
 ## 🤝 Contributing
@@ -181,5 +181,5 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 - Built by **Yash Dewangan**
 - Github: [YashDewangan](https://github.com/yashdew3)
-- Email: [yashdew06@gmail.com](yashdew06@gmail.com)
+- Email: [yashdew06@gmail.com](mailto:yashdew06@gmail.com)
 - Linkedin: [YashDewangan](https://www.linkedin.com/in/yash-dewangan/)
