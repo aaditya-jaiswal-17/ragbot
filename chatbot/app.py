@@ -1,13 +1,20 @@
 # ui/app.py
 
+import os
+from dotenv import load_dotenv
 import streamlit as st
+
+# LangChain Community imports
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.llms import HuggingFacePipeline  # Use community instead of langchain.llms
+
+# LangChain core imports
 from langchain.chains import RetrievalQA
-from langchain.llms import HuggingFacePipeline
+
+# Hugging Face Transformers
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
-from dotenv import load_dotenv
-import os
+
 
 # Load environment variables
 load_dotenv()

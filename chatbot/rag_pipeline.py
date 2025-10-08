@@ -1,12 +1,14 @@
+
 import os
 from dotenv import load_dotenv
 import pandas as pd
-from langchain_huggingface import HuggingFaceEmbeddings
+
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_community.llms import HuggingFaceHub
+
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
-
 # Load environment variables (HuggingFace token if needed)
 load_dotenv()
 
